@@ -2,7 +2,8 @@
 
 # 给变量改变前后添加监听事件
 主要采用的是java.beans.PropertyChangeSupport来现实变量的监听<br>
-通过apt的方法将主要代码通过自动生成代码的方式<br>
+通过apt的方法将主要代码自动生成<br>
+最终以注解的方式使用<br>
 <br>
 如何使用apt以及最终将库发布到jCenter，请参考我之前的一片文章：<br>
 http://www.jianshu.com/p/1502674152bd<br>
